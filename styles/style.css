@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+body header {
+  margin: 10px 10px;
+}
+body main {
+  margin: 30px 20px;
+}
+body main article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+body main article div {
+  margin-left: 10px;
+}
+body main article div :first-child {
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
