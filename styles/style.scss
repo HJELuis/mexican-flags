@@ -1,11 +1,26 @@
 
 body {
     margin: 0;
+    font-size: 1.2em;
     header {
+        color: #003402;
         margin: 10px 10px;
+        nav {
+            display: flex;
+            gap: 10px;
+            a {
+                text-decoration: none;
+                &:visited {
+                    color: #000000;
+                }
+                &:hover {
+                    color: #006404;
+                }
+            }
+        }
     }    
     main {
-        margin: 30px 20px;
+        margin: 30px 10px;
         article {
             display: flex;        
             align-items: center;
@@ -15,6 +30,16 @@ body {
             }
             div :first-child {
                 font-weight: 600;
+            }
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            button {
+                font-size: 1rem;
+                margin-top: 10px;
+                width: 30%;
             }
         }
     }        
